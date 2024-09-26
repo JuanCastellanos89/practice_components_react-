@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { MyFirstComponent } from './components/MyFirstComponent'
+import { SecondComponent } from './components/SecondComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className='App'>
       <header clasName="App-header">
-        < MyFirstComponent />
+        < SecondComponent />
       </header>
     </div>
   )
