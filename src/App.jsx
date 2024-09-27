@@ -4,6 +4,7 @@ import { MyFirstComponent } from './components/MyFirstComponent'
 import { SecondComponent } from './components/SecondComponent'
 import { Child } from './components/Child'
 import { ThirdComponent } from './components/ThirdComponent'
+import { FourComponent } from './components/FourComponent'
 
 
 function App() {
@@ -12,13 +13,8 @@ function App() {
   return (
     <div className='App'>
       <header clasName="App-header">
-        <h1>Fundamentos de React</h1>
         <hr className='white-hr'/>
-        < ThirdComponent 
-          name="Juan"
-          last_name="Castellanos"
-          age="35"
-        />
+        <FourComponent/>
         <hr className='white-hr'/>
         <Child
           name={name}
